@@ -8,22 +8,52 @@
 
 /* Begin PBXBuildFile section */
 		3276E28824F81F6B0045246C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3276E28724F81F6B0045246C /* AppDelegate.swift */; };
-		3276E28A24F81F6B0045246C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3276E28924F81F6B0045246C /* SceneDelegate.swift */; };
-		3276E28C24F81F6B0045246C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3276E28B24F81F6B0045246C /* ViewController.swift */; };
-		3276E28F24F81F6B0045246C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3276E28D24F81F6B0045246C /* Main.storyboard */; };
 		3276E29124F81F6E0045246C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3276E29024F81F6E0045246C /* Assets.xcassets */; };
-		3276E29424F81F6E0045246C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3276E29224F81F6E0045246C /* LaunchScreen.storyboard */; };
+		3276E2B324F8219D0045246C /* DeviceUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3276E2B124F8219D0045246C /* DeviceUtil.swift */; };
+		3276E2B424F8219D0045246C /* ViewUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3276E2B224F8219D0045246C /* ViewUtil.swift */; };
+		3276E2B824F821BA0045246C /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3276E2B524F821BA0045246C /* UIColorExtension.swift */; };
+		3276E2B924F821BA0045246C /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3276E2B624F821BA0045246C /* UIViewExtension.swift */; };
+		3276E2BA24F821BA0045246C /* UINavigationItemExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3276E2B724F821BA0045246C /* UINavigationItemExtention.swift */; };
+		3276E2BC24F935290045246C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3276E2BB24F935290045246C /* LaunchScreen.storyboard */; };
+		3276E2BF24F936F60045246C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3276E2BE24F936F60045246C /* HomeViewController.swift */; };
+		3276E2CC24F937DC0045246C /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3276E2C224F937DC0045246C /* BaseNavigationController.swift */; };
+		3276E2CD24F937DC0045246C /* BaseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3276E2C424F937DC0045246C /* BaseButton.swift */; };
+		3276E2CE24F937DC0045246C /* TextFieldSelect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3276E2C624F937DC0045246C /* TextFieldSelect.swift */; };
+		3276E2CF24F937DC0045246C /* BaseTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3276E2C724F937DC0045246C /* BaseTextField.swift */; };
+		3276E2D024F937DC0045246C /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3276E2C924F937DC0045246C /* BaseViewController.swift */; };
+		3276E2D124F937DC0045246C /* BasePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3276E2CB24F937DC0045246C /* BasePresenter.swift */; };
+		3276E2DC24F939180045246C /* ErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3276E2D324F939180045246C /* ErrorResponse.swift */; };
+		3276E2DD24F939180045246C /* BaseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3276E2D424F939180045246C /* BaseError.swift */; };
+		3276E2DE24F939180045246C /* HTTPStatusCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3276E2D524F939180045246C /* HTTPStatusCode.swift */; };
+		3276E2DF24F939180045246C /* BaseAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3276E2D624F939180045246C /* BaseAPI.swift */; };
+		DBEB92EFB0EB92E4E1AC872E /* libPods-BookingRoom.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD4E876EC2D244024D75CBF5 /* libPods-BookingRoom.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		127A41A627992069556E54B7 /* Pods-BookingRoom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookingRoom.release.xcconfig"; path = "Target Support Files/Pods-BookingRoom/Pods-BookingRoom.release.xcconfig"; sourceTree = "<group>"; };
 		3276E28424F81F6B0045246C /* BookingRoom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookingRoom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3276E28724F81F6B0045246C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3276E28924F81F6B0045246C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3276E28B24F81F6B0045246C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3276E28E24F81F6B0045246C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3276E29024F81F6E0045246C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3276E29324F81F6E0045246C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3276E29524F81F6E0045246C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3276E2B124F8219D0045246C /* DeviceUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceUtil.swift; sourceTree = "<group>"; };
+		3276E2B224F8219D0045246C /* ViewUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewUtil.swift; sourceTree = "<group>"; };
+		3276E2B524F821BA0045246C /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		3276E2B624F821BA0045246C /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		3276E2B724F821BA0045246C /* UINavigationItemExtention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UINavigationItemExtention.swift; sourceTree = "<group>"; };
+		3276E2BB24F935290045246C /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3276E2BE24F936F60045246C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		3276E2C224F937DC0045246C /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		3276E2C424F937DC0045246C /* BaseButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseButton.swift; sourceTree = "<group>"; };
+		3276E2C624F937DC0045246C /* TextFieldSelect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldSelect.swift; sourceTree = "<group>"; };
+		3276E2C724F937DC0045246C /* BaseTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTextField.swift; sourceTree = "<group>"; };
+		3276E2C924F937DC0045246C /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		3276E2CB24F937DC0045246C /* BasePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasePresenter.swift; sourceTree = "<group>"; };
+		3276E2D324F939180045246C /* ErrorResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorResponse.swift; sourceTree = "<group>"; };
+		3276E2D424F939180045246C /* BaseError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseError.swift; sourceTree = "<group>"; };
+		3276E2D524F939180045246C /* HTTPStatusCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPStatusCode.swift; sourceTree = "<group>"; };
+		3276E2D624F939180045246C /* BaseAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseAPI.swift; sourceTree = "<group>"; };
+		BD4E876EC2D244024D75CBF5 /* libPods-BookingRoom.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BookingRoom.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFAEBD855903EBE70F4D03D9 /* Pods-BookingRoom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookingRoom.debug.xcconfig"; path = "Target Support Files/Pods-BookingRoom/Pods-BookingRoom.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBEB92EFB0EB92E4E1AC872E /* libPods-BookingRoom.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +73,8 @@
 			children = (
 				3276E28624F81F6B0045246C /* BookingRoom */,
 				3276E28524F81F6B0045246C /* Products */,
+				A110623D8649E9EF313C7721 /* Pods */,
+				740F3C2932C318B144E88B00 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +89,230 @@
 		3276E28624F81F6B0045246C /* BookingRoom */ = {
 			isa = PBXGroup;
 			children = (
-				3276E28724F81F6B0045246C /* AppDelegate.swift */,
-				3276E28924F81F6B0045246C /* SceneDelegate.swift */,
-				3276E28B24F81F6B0045246C /* ViewController.swift */,
-				3276E28D24F81F6B0045246C /* Main.storyboard */,
-				3276E29024F81F6E0045246C /* Assets.xcassets */,
-				3276E29224F81F6E0045246C /* LaunchScreen.storyboard */,
-				3276E29524F81F6E0045246C /* Info.plist */,
+				3276E29B24F81F990045246C /* Resource */,
+				3276E29C24F81F990045246C /* Sources */,
 			);
 			path = BookingRoom;
+			sourceTree = "<group>";
+		};
+		3276E29B24F81F990045246C /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				3276E29024F81F6E0045246C /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		3276E29C24F81F990045246C /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				3276E2C024F937DC0045246C /* Base */,
+				3276E2A024F81F990045246C /* Storyboard */,
+				3276E29D24F81F990045246C /* MockData */,
+				3276E29E24F81F990045246C /* App */,
+				3276E29F24F81F990045246C /* Util */,
+				3276E2A424F81F990045246C /* Models */,
+				3276E2A524F81F990045246C /* View */,
+				3276E2A724F81F990045246C /* API */,
+				3276E2AA24F81F990045246C /* Extention */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		3276E29D24F81F990045246C /* MockData */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MockData;
+			sourceTree = "<group>";
+		};
+		3276E29E24F81F990045246C /* App */ = {
+			isa = PBXGroup;
+			children = (
+				3276E28724F81F6B0045246C /* AppDelegate.swift */,
+				3276E29524F81F6E0045246C /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		3276E29F24F81F990045246C /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				3276E2B124F8219D0045246C /* DeviceUtil.swift */,
+				3276E2B224F8219D0045246C /* ViewUtil.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		3276E2A024F81F990045246C /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				3276E2BD24F935DD0045246C /* HomeViewController */,
+				3276E2A124F81F990045246C /* LaunchScreen */,
+				3276E2A224F81F990045246C /* History */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		3276E2A124F81F990045246C /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				3276E2BB24F935290045246C /* LaunchScreen.storyboard */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		3276E2A224F81F990045246C /* History */ = {
+			isa = PBXGroup;
+			children = (
+				3276E2A324F81F990045246C /* HistoryTable */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		3276E2A324F81F990045246C /* HistoryTable */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HistoryTable;
+			sourceTree = "<group>";
+		};
+		3276E2A424F81F990045246C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3276E2A524F81F990045246C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3276E2A624F81F990045246C /* BaseDialog */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3276E2A624F81F990045246C /* BaseDialog */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BaseDialog;
+			sourceTree = "<group>";
+		};
+		3276E2A724F81F990045246C /* API */ = {
+			isa = PBXGroup;
+			children = (
+				3276E2D624F939180045246C /* BaseAPI.swift */,
+				3276E2D224F939180045246C /* Error */,
+				3276E2D724F939180045246C /* Request */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		3276E2AA24F81F990045246C /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+				3276E2B524F821BA0045246C /* UIColorExtension.swift */,
+				3276E2B724F821BA0045246C /* UINavigationItemExtention.swift */,
+				3276E2B624F821BA0045246C /* UIViewExtension.swift */,
+			);
+			path = Extention;
+			sourceTree = "<group>";
+		};
+		3276E2BD24F935DD0045246C /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3276E2BE24F936F60045246C /* HomeViewController.swift */,
+			);
+			path = HomeViewController;
+			sourceTree = "<group>";
+		};
+		3276E2C024F937DC0045246C /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				3276E2C124F937DC0045246C /* BaseNavigationController */,
+				3276E2C324F937DC0045246C /* BaseButton */,
+				3276E2C524F937DC0045246C /* TextField */,
+				3276E2C824F937DC0045246C /* BaseViewController */,
+				3276E2CA24F937DC0045246C /* BasePresenter */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		3276E2C124F937DC0045246C /* BaseNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				3276E2C224F937DC0045246C /* BaseNavigationController.swift */,
+			);
+			path = BaseNavigationController;
+			sourceTree = "<group>";
+		};
+		3276E2C324F937DC0045246C /* BaseButton */ = {
+			isa = PBXGroup;
+			children = (
+				3276E2C424F937DC0045246C /* BaseButton.swift */,
+			);
+			path = BaseButton;
+			sourceTree = "<group>";
+		};
+		3276E2C524F937DC0045246C /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				3276E2C624F937DC0045246C /* TextFieldSelect.swift */,
+				3276E2C724F937DC0045246C /* BaseTextField.swift */,
+			);
+			path = TextField;
+			sourceTree = "<group>";
+		};
+		3276E2C824F937DC0045246C /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3276E2C924F937DC0045246C /* BaseViewController.swift */,
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		3276E2CA24F937DC0045246C /* BasePresenter */ = {
+			isa = PBXGroup;
+			children = (
+				3276E2CB24F937DC0045246C /* BasePresenter.swift */,
+			);
+			path = BasePresenter;
+			sourceTree = "<group>";
+		};
+		3276E2D224F939180045246C /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				3276E2D324F939180045246C /* ErrorResponse.swift */,
+				3276E2D424F939180045246C /* BaseError.swift */,
+				3276E2D524F939180045246C /* HTTPStatusCode.swift */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		3276E2D724F939180045246C /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		740F3C2932C318B144E88B00 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD4E876EC2D244024D75CBF5 /* libPods-BookingRoom.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A110623D8649E9EF313C7721 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CFAEBD855903EBE70F4D03D9 /* Pods-BookingRoom.debug.xcconfig */,
+				127A41A627992069556E54B7 /* Pods-BookingRoom.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +322,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3276E29824F81F6E0045246C /* Build configuration list for PBXNativeTarget "BookingRoom" */;
 			buildPhases = (
+				9CD88983DBEA2794E827B368 /* [CP] Check Pods Manifest.lock */,
 				3276E28024F81F6B0045246C /* Sources */,
 				3276E28124F81F6B0045246C /* Frameworks */,
 				3276E28224F81F6B0045246C /* Resources */,
+				79354B5598650B0A90086A67 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,45 +375,81 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3276E29424F81F6E0045246C /* LaunchScreen.storyboard in Resources */,
+				3276E2BC24F935290045246C /* LaunchScreen.storyboard in Resources */,
 				3276E29124F81F6E0045246C /* Assets.xcassets in Resources */,
-				3276E28F24F81F6B0045246C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		79354B5598650B0A90086A67 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BookingRoom/Pods-BookingRoom-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BookingRoom/Pods-BookingRoom-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BookingRoom/Pods-BookingRoom-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CD88983DBEA2794E827B368 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BookingRoom-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3276E28024F81F6B0045246C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3276E28C24F81F6B0045246C /* ViewController.swift in Sources */,
+				3276E2D024F937DC0045246C /* BaseViewController.swift in Sources */,
+				3276E2D124F937DC0045246C /* BasePresenter.swift in Sources */,
+				3276E2BA24F821BA0045246C /* UINavigationItemExtention.swift in Sources */,
+				3276E2B924F821BA0045246C /* UIViewExtension.swift in Sources */,
+				3276E2DD24F939180045246C /* BaseError.swift in Sources */,
+				3276E2BF24F936F60045246C /* HomeViewController.swift in Sources */,
 				3276E28824F81F6B0045246C /* AppDelegate.swift in Sources */,
-				3276E28A24F81F6B0045246C /* SceneDelegate.swift in Sources */,
+				3276E2CE24F937DC0045246C /* TextFieldSelect.swift in Sources */,
+				3276E2CF24F937DC0045246C /* BaseTextField.swift in Sources */,
+				3276E2CC24F937DC0045246C /* BaseNavigationController.swift in Sources */,
+				3276E2CD24F937DC0045246C /* BaseButton.swift in Sources */,
+				3276E2B824F821BA0045246C /* UIColorExtension.swift in Sources */,
+				3276E2B424F8219D0045246C /* ViewUtil.swift in Sources */,
+				3276E2B324F8219D0045246C /* DeviceUtil.swift in Sources */,
+				3276E2DF24F939180045246C /* BaseAPI.swift in Sources */,
+				3276E2DE24F939180045246C /* HTTPStatusCode.swift in Sources */,
+				3276E2DC24F939180045246C /* ErrorResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		3276E28D24F81F6B0045246C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3276E28E24F81F6B0045246C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		3276E29224F81F6E0045246C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3276E29324F81F6E0045246C /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		3276E29624F81F6E0045246C /* Debug */ = {
@@ -282,10 +568,12 @@
 		};
 		3276E29924F81F6E0045246C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFAEBD855903EBE70F4D03D9 /* Pods-BookingRoom.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = BookingRoom/Info.plist;
+				INFOPLIST_FILE = BookingRoom/Sources/App/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,10 +587,12 @@
 		};
 		3276E29A24F81F6E0045246C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 127A41A627992069556E54B7 /* Pods-BookingRoom.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = BookingRoom/Info.plist;
+				INFOPLIST_FILE = BookingRoom/Sources/App/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
